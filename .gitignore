@@ -1,0 +1,30 @@
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases / Data
+data/
+logs/
+*.db
+*.sqlite
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# YOLO
+yolov8n.pt
+
+# IDEs
+.vscode/
+.idea/

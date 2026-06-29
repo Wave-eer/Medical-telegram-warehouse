@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: telegram_messages
+        description: Raw telegram scraper messages loaded from JSON files.
+      - name: image_detections
+        description: Raw YOLO object detection results on message images.
